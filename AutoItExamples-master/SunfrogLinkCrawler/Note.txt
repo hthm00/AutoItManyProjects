@@ -1,0 +1,8 @@
+Project này trước có người thuê code mà sau đó có người khác code free giùm nên không nhận. Giờ share lại cho ai cần thì đọc tham khảo.
+
+Lưu ý khi sử dụng:
+- Nếu đã chọn file thì phần dữ liệu ghi ở ô Từ khóa sẽ bị bỏ qua.
+- Số link thực sự lấy được có thể ít hơn số lượng ước tính, trường hợp đó thường là do từ khóa cho ra ít kết quả hơn số lượng được yêu cầu.
+- File SF-crawler-config.dat là file lưu các tùy chọn của người dùng, nếu xóa file chương trình sẽ đặt các tùy chọn đó về mặc định.
+- Thời gian chờ thực sự giữa các lần gửi request lên server được tính như sau: Thời gian chờ + số ngẫu nhiên. Số ngẫu nhiên này có trị tuyệt đối không vượt quá độ lệch (ví dụ độ lệch là 1 thì số ngẫu nhiên này sẽ không nhỏ hơn -1 và cũng không lớn hơn 1). Với thời gian chờ là 5s và độ lệch là 2s thì thời gian chờ thực sự sẽ ngẫu nhiên từ 3 đến 7 giây.
+- Chỉ có Số lượng link, Thời gian chờ, và Độ lệch được lưu lại.
